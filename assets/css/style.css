@@ -933,6 +933,63 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+input[type="checkbox"] { 
+  position: absolute;
+}
+input[type="checkbox"] ~ label { 
+  padding-left:1.4em;
+  display:inline-block;
+}
+
+
+.resume-templates-card .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+  display:inline-block;
+  margin: 15px;
+}
+
+.resume-templates-card .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.resume-templates-card .icon-box .icon i {
+  color: #47e494;
+  font-size: 36px;
+  transition: 0.3s;
+}
+.resume-templates-card .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.resume-templates-card .icon-box h4 a {
+  color: #055052;
+  transition: ease-in-out 0.3s;
+}
+
+.resume-templates-card .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.resume-templates-card.icon-box.icon:hover{
+  transform: translateY(-10px);
+  background-color: #333;
+}
+
+.resume-templates-card .icon-box:hover h4 a {
+  color: #47e494;
+}
+
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {

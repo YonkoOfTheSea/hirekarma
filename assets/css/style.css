@@ -946,26 +946,21 @@ input[type="checkbox"] ~ label {
 
 .resume-templates-card .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 30px 30px;
+  padding: 10px 10px;
   transition: all ease-in-out 0.4s;
   background: #fff;
   display:inline-block;
-  margin: 15px;
+  margin:15px;
 }
 
 .resume-templates-card .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.resume-templates-card .icon-box .icon i {
-  color: #47e494;
-  font-size: 36px;
-  transition: 0.3s;
-}
 .resume-templates-card .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .resume-templates-card .icon-box h4 a {
@@ -979,7 +974,7 @@ input[type="checkbox"] ~ label {
   margin-bottom: 0;
 }
 
-.resume-templates-card.icon-box.icon:hover{
+.resume-templates-card.icon-box:hover{
   transform: translateY(-10px);
   background-color: #333;
 }

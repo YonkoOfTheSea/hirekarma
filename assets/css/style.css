@@ -986,10 +986,10 @@ input[type="checkbox"] ~ label {
   opacity:4;
   
 }
-img{
+.icon-box.col-md-3 img{
   opacity: 0.5;
 }
-img:hover{
+.icon-box.col-md-3 img:hover{
   opacity: 4;
 }
 

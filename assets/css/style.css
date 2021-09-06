@@ -968,6 +968,12 @@ input[type="checkbox"] ~ label {
   transition: ease-in-out 0.3s;
 }
 
+.resume-templates-card .icon-box h5 a {
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+
 .resume-templates-card .icon-box p {
   line-height: 24px;
   font-size: 14px;
@@ -983,6 +989,9 @@ input[type="checkbox"] ~ label {
   color: #47e494;
 }
 
+.resume-templates-card .icon-box:hover h5 a {
+  color: #47e494;
+}
 
 /*--------------------------------------------------------------
 # Services
